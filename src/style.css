@@ -41,20 +41,20 @@ li::first-letter {
 }
 .weather-temperature img {
   margin-right: 5px;
-  height: 65px;
+  height: 100px;
   width: auto;
 }
 
 .weather-temperature strong {
   position: relative;
   color: rgb(33, 33, 33);
-  font-size: 45px;
+  font-size: 65px;
   font-weight: 400;
   left: -12px;
 }
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: 12px;
+  top: 20px;
   left: -10px;
 }
