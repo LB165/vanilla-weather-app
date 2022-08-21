@@ -31,6 +31,7 @@ li::first-letter {
   padding: 30px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background-color: rgba(240, 159, 187, 0.549);
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -69,4 +70,9 @@ li::first-letter {
 }
 #celsius-link {
   text-decoration: none;
+}
+#conditions {
+  position: relative;
+  top: 20px;
+  left: 120px;
 }
