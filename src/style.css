@@ -58,3 +58,15 @@ li::first-letter {
   top: 20px;
   left: -10px;
 }
+.weather-temperature .active {
+  color: black;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+#fahrenheit-link {
+  text-decoration: none;
+}
+#celsius-link {
+  text-decoration: none;
+}
