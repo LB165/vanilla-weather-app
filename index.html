@@ -20,41 +20,42 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>New York</h1>
+            <h1 id="city">New York</h1>
             <ul>
               <li>Friday 05:00</li>
               <li>Clear</li>
             </ul>
-            <div class="row">
-              <div class="col-6">
-                <div class="clearfix weather-temperature">
-                  <img
-                    src="https://media.istockphoto.com/vectors/cute-flat-sun-icon-vector-id1124567572?k=20&m=1124567572&s=612x612&w=0&h=qA2-ugQviG9uGvpn5-K90sK9w5QZjd3TetULc_5VECc="
-                    alt="Clear"
-                    class="float-left"
-                  />
-                  <div class="float-left">
-                    <strong>12</strong>
-                    <span class="units">°C | <a href="#"> °F</a></span>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <ul>
-                    <li>Precipitation: 0%</li>
-                    <li>Humidity: 73%</li>
-                    <li>Wind: 2km/h</li>
-                  </ul>
-                </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="d-flex weather-temperature">
+                <img
+                  src="https://media.istockphoto.com/vectors/cute-flat-sun-icon-vector-id1124567572?k=20&m=1124567572&s=612x612&w=0&h=qA2-ugQviG9uGvpn5-K90sK9w5QZjd3TetULc_5VECc="
+                  alt="Clear"
+                  id="icon"
+                />
+
+                <strong>12</strong>
+                <span class="units">°C | <a href="#"> °F</a></span>
               </div>
+            </div>
+
+            <div class="col-6" id>
+              <ul>
+                <li>Precipitation: 0%</li>
+                <li>Humidity: 73%</li>
+                <li>Wind: 2km/h</li>
+              </ul>
             </div>
           </div>
         </div>
-        <small
-          ><a
+
+        <small>
+          <a
             href="https://github.com/LB165/vanilla-weather-app"
             target="_blank"
           >
-            Open-source code, by Lucija Barcanec</a
+            Open-source code by Lucija Barcanec</a
           ></small
         >
       </div>
