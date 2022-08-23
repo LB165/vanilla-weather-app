@@ -87,6 +87,7 @@ li::first-letter {
   text-decoration: none;
 }
 #conditions {
-  margin-top: 20px;
-  margin-left: 120px;
+  position: relative;
+  top: -77px;
+  left: 340px;
 }
