@@ -86,3 +86,6 @@ li::first-letter {
 #celsius-link {
   text-decoration: none;
 }
+#conditions {
+  overflow-wrap: normal;
+}
