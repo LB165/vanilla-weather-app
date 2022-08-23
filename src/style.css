@@ -86,8 +86,3 @@ li::first-letter {
 #celsius-link {
   text-decoration: none;
 }
-#conditions {
-  position: relative;
-  top: -77px;
-  left: 340px;
-}
