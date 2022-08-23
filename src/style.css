@@ -88,4 +88,6 @@ li::first-letter {
 }
 #conditions {
   overflow-wrap: normal;
+  margin-top: 20px;
+  margin-left: 77px;
 }
